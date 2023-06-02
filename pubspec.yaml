@@ -40,13 +40,16 @@ flutter:
 
 
   fonts:
-    - family: Sora
+    - family: Inter
       fonts:
-        - asset: assets/fonts/Sora-Regular.ttf
-        - asset: assets/fonts/Sora-Light.ttf
-        - asset: assets/fonts/Sora-Medium.ttf
-        - asset: assets/fonts/Sora-SemiBold.ttf
-        - asset: assets/fonts/Sora-Bold.ttf
-        - asset: assets/fonts/Sora-ExtraBold.ttf
+        - asset: assets/fonts/Inter-Regular.ttf
+        - asset: assets/fonts/Inter-Light.ttf
+        - asset: assets/fonts/Inter-SemiBold.ttf
+        - asset: assets/fonts/Inter-Bold.ttf
+        - asset: assets/fonts/Inter-ExtraBold.ttf
+        - asset: assets/fonts/Inter-ExtraLight.ttf
+        - asset: assets/fonts/Inter-Thin.ttf
+        - asset: assets/fonts/Inter-Medium.ttf
+        - asset: assets/fonts/Inter-Black.ttf
           style: italic
 
