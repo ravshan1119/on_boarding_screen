@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:n8_default_project/ui/splash/splash_screen2.dart';
-import 'package:n8_default_project/utils/colors.dart';
-import 'package:n8_default_project/utils/icons.dart';
 
+import '../../utils/colors.dart';
+import '../../utils/icons.dart';
+import '../on_boarding/on_boarding_screen.dart';
 class SplashScreen1 extends StatelessWidget {
   const SplashScreen1({Key? key}) : super(key: key);
 
@@ -21,7 +21,7 @@ class SplashScreen1 extends StatelessWidget {
           child: Center(
             child: SizedBox(
                 height: height * (132 / 812),
-                child: Image.asset(AppImages.icon)),
+                child: Image.asset(AppImages.image)),
           ),
         ));
   }
@@ -43,7 +43,7 @@ class SplashScreen1 extends StatelessWidget {
     Future.delayed(Duration(seconds: 2), () {
       Navigator.pushReplacement(context,
           MaterialPageRoute(builder: (BuildContext context) {
-        return const SplashScreen2();
+        return const OnBoardingScreen();
       }));
     });
   }

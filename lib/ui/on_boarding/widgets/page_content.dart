@@ -65,11 +65,7 @@ class PageContent extends StatelessWidget {
               height: 20,
             ),
             CenterDots(activeDotIndex: index),
-            Spacer(),
-            GlobalButton(title: "Get Started", onTap: () {}),
-            SizedBox(
-              height: height * (70 / 812),
-            )
+
           ],
         ),
       ),

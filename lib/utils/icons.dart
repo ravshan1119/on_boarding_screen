@@ -1,11 +1,9 @@
 class AppImages{
   //png
-  static const String bicycle = "assets/images/bicycle.png";
-  static const String icon = "assets/images/icon.png";
-  static const String iconText = "assets/images/icon_text.png";
-  static const String onBoarding = "assets/images/on_boarding.png";
-  static const String onBoarding2 = "assets/images/on_boarding2.png";
-  static const String onBoarding3 = "assets/images/on_boarding3.png";
+  static const String img = "assets/images/img.png";
+  static const String img_1 = "assets/images/img_1.png";
+  static const String img_2 = "assets/images/img_2.png";
+  static const String image = "assets/images/image.jpg";
 
   //svg
   static const String react = "assets/svg/react.svg";
